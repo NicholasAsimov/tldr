@@ -60,7 +60,7 @@ func render(page io.Reader) error {
 		// Command description
 		case '>':
 			fmt.Println(ANSI_BOLD + text + ANSI_CLEAR)
-			// Example description
+		// Example description
 		case '-':
 			fmt.Printf(line)
 		// Example code
